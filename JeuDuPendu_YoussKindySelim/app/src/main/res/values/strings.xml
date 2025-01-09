@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">JeuDuPendu_YoussKindySelim</string>
+    <string name="button_A">A</string>
+    <string name="button_B">B</string>
+    <string name="button_C">C</string>
+    <string name="button_D">D</string>
+    <string name="button_E">E</string>
+    <string name="button_F">F</string>
+    <string name="button_G">G</string>
+    <string name="button_H">H</string>
+    <string name="button_I">I</string>
+    <string name="button_J">J</string>
+    <string name="button_K">K</string>
+    <string name="button_L">L</string>
+    <string name="button_M">M</string>
+    <string name="button_N">N</string>
+    <string name="button_O">O</string>
+    <string name="button_P">P</string>
+    <string name="button_Q">Q</string>
+    <string name="button_R">R</string>
+    <string name="button_S">S</string>
+    <string name="button_T">T</string>
+    <string name="button_U">U</string>
+    <string name="button_V">V</string>
+    <string name="button_W">W</string>
+    <string name="button_X">X</string>
+    <string name="button_Y">Y</string>
+    <string name="button_Z">Z</string>
+    <string name="jeuDuPendu">Jeu du pendu</string>
+    <string name="debuterLeJeu">Débuter le Jeu</string>
+    <string name="preference">Preference</string>
+    <string name="historique">Historique</string>
+    <string name="dictionnaire">Dictionnaire</string>
+    <string name="facile">Facile</string>
+    <string name="moyen">Moyen</string>
+    <string name="difficile">Difficile</string>
+    <string name="francais">Francais</string>
+    <string name="anglais">Anglais</string>
+    <string name="nom">Nom</string>
+    <string name="ajouterUnMot">Ajouter un Mot</string>
+    <string name="lesMotDuDictionnaire">les Mot Du Dictionnaire</string>
+    <string name="mot">Mot :</string>
+    <string name="langue">Langue :</string>
+    <string name="niveauDeDifficulte">Niveau de Difficulte :</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="temps">Temps : </string>
+    <string name="change">Changer</string>
+    <string name="retour">Retour</string>
+    <string name="recommencer">Recommencer</string>
+    <string name="score">Score</string>
+    <string name="supprimer">Suprimer</string>
+    <string name="filtre">Filtrer</string>
+    <string-array name= "langues">
+        <item>Francais</item>
+        <item>Anglais</item>
+        <item>Aucun</item>
+    </string-array>
+    <string-array name= "niveau">
+        <item>Facile</item>
+        <item>Moyen</item>
+        <item>Difficile</item>
+        <item>Aucun</item>
+    </string-array>
+
+
+</resources>

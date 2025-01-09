@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivityAjouterMot">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center_horizontal"
+        android:text="@string/ajouterUnMot"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/mot"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/mot"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/motFUt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:ems="10"
+            android:fontFamily="@font/akaya_telivigala"
+            android:hint="@string/francais"
+            android:inputType="text"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/motAUt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:fontFamily="@font/akaya_telivigala"
+            android:hint="@string/anglais"
+            android:inputType="text"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/niveauDeDifficulte"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupDiff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/facile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="@string/facile"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/moyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="@string/moyen"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/difficile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="@string/difficile"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ajoutMot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/ajouter"
+            android:textColorLink="#FFFFFF" />
+
+        <Button
+            android:id="@+id/retourAjout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/retour" />
+    </LinearLayout>
+
+</LinearLayout>

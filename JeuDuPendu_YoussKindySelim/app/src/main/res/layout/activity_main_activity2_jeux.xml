@@ -1,0 +1,424 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!-- Title TextView -->
+
+    <!-- Image View for Vulture -->
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="409dp"
+        android:layout_height="36dp"
+        android:background="#4CAF50"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:text="@string/jeuDuPendu"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Score :"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/word_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Trouver ce Mot:"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
+        tools:ignore="MissingConstraints" />
+
+    <GridLayout
+        android:id="@+id/alphabet_buttons"
+        android:layout_width="263dp"
+        android:layout_height="244dp"
+        android:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825">
+
+        <!-- Buttons A-Z with fixed rectangular dimensions -->
+        <Button
+            android:id="@+id/button_A"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_A"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_B"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_B"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_C"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_C"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_D"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_D"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_E"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_E"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_F"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_F"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_G"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_G"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_H"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_H"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_I"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_I"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_J"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_J"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_K"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_K"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_L"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_L"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_M"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_M"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_N"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_N"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_O"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_O"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_P"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_P"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_Q"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_Q"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_R"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_R"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_S"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_S"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_T"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_T"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_U"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_U"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_V"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_V"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_W"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_W"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_X"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_X"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_Y"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_Y"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_Z"
+            android:layout_width="64dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/button_Z"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="45dp"
+        android:layout_height="16dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="TextView"
+        android:textColor="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="394dp"
+        android:layout_height="279dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172"
+        app:srcCompat="@drawable/acceuil" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/temps"
+        android:textColor="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/temps"
+        android:layout_width="119dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="TextView"
+        android:textColor="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <Button
+        android:id="@+id/recommencer"
+        android:layout_width="152dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/recommencer"
+        android:textColor="#000000"
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <Button
+        android:id="@+id/retourJeu"
+        android:layout_width="152dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/retour"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

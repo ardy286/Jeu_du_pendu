@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JeuDuPendu_YoussKindySelim</string>
+    <string name="button_A">A</string>
+    <string name="button_B">B</string>
+    <string name="button_C">C</string>
+    <string name="button_D">D</string>
+    <string name="button_E">E</string>
+    <string name="button_F">F</string>
+    <string name="button_G">G</string>
+    <string name="button_H">H</string>
+    <string name="button_I">I</string>
+    <string name="button_J">J</string>
+    <string name="button_K">K</string>
+    <string name="button_L">L</string>
+    <string name="button_M">M</string>
+    <string name="button_N">N</string>
+    <string name="button_O">O</string>
+    <string name="button_P">P</string>
+    <string name="button_Q">Q</string>
+    <string name="button_R">R</string>
+    <string name="button_S">S</string>
+    <string name="button_T">T</string>
+    <string name="button_U">U</string>
+    <string name="button_V">V</string>
+    <string name="button_W">W</string>
+    <string name="button_X">X</string>
+    <string name="button_Y">Y</string>
+    <string name="button_Z">Z</string>
+    <string name="jeuDuPendu">Hangmans Game</string>
+    <string name="debuterLeJeu">Start the game</string>
+    <string name="preference">Option</string>
+    <string name="historique">Game History</string>
+    <string name="dictionnaire">Dictionary</string>
+    <string name="facile">Easy</string>
+    <string name="moyen">Medium</string>
+    <string name="difficile">Hard</string>
+    <string name="francais">French</string>
+    <string name="anglais">English</string>
+    <string name="nom">Name</string>
+    <string name="ajouterUnMot">add a Word</string>
+    <string name="lesMotDuDictionnaire">Dictionary Words</string>
+    <string name="mot">Word :</string>
+    <string name="langue">Language :</string>
+    <string name="niveauDeDifficulte">Difficulty level :</string>
+    <string name="ajouter">Add</string>
+    <string name="temps">Timer : </string>
+    <string name="change">Edit</string>
+    <string name="retour">Return</string>
+    <string name="recommencer">Restart</string>
+    <string name="score">Score</string>
+    <string name="supprimer">Delete</string>
+    <string name="filtre">Filter</string>
+    <string-array name= "langues">
+        <item>French</item>
+        <item>English</item>
+        <item>None</item>
+    </string-array>
+    <string-array name= "niveau">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>None</item>
+    </string-array>
+</resources>

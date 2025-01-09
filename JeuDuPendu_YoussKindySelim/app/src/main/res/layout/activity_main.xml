@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:text="@string/jeuDuPendu"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FAFAFA"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="402dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/acceuil" />
+
+    <Button
+        android:id="@+id/startJeuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/debuterLeJeu"
+        android:textColorLink="#2E0C0C"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/optionJeuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/preference"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/historyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/historique"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/dictionaryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/dictionnaire"
+        android:textSize="16sp" />
+
+</LinearLayout>
